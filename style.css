@@ -1,0 +1,43 @@
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    left: 30px;
+    z-index: 999;
+    cursor: pointer;
+    background-color: red;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    background-color: greenyellow;
+    font-size: 20;
+    font-family: cursive;
+}
+  
+#target {
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    resize: both;
+    position: center;
+    z-index: 2;
+}
+  
+iframe {
+    width: 200%
+    height: 200%;
+    border: none;
+}
